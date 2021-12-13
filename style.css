@@ -1804,3 +1804,14 @@ a:hover, a:active {
 	color: #fff !important;
 	background: #4e9eee !important;
 }
+
+.p-msd3635, .p-2de4108 {
+	display: none;
+}
+
+.post-thumbnail img {
+	max-height: 250px !important;
+	width: 100%;
+	object-fit: cover;
+}
+
