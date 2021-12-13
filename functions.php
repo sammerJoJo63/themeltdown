@@ -295,6 +295,8 @@ function popularfx_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	
+	wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), POPULARFX_VERSION, true);
 }
 add_action( 'wp_enqueue_scripts', 'popularfx_scripts' );
 

@@ -1,7 +1,7 @@
 /*!
-Theme Name: PopularFX
+Theme Name: The Meltdown
 Theme URI: https://popularfx.com
-Author: Pagelayer
+Author: Pagelayer, Sam Carne
 Author URI: https://pagelayer.com
 Description: Lightweight theme to make beautiful websites with Pagelayer. Includes 100s of pre-made templates to design your dream website !
 Version: 1.2.0
@@ -1691,4 +1691,116 @@ object {
 		width:100%;
 	}
 }
+
+
+
+/*--------------------------------------------------------------
+# 	CUSTOM "THE MELTDOWN" STYLES
+--------------------------------------------------------------*/
+
+
+.pagelayer-heading-holder h1 {
+	font-size: 100px !important;
+	color: #4e9eee !important;
+}
+
+.pagelayer-header h2 {
+	display: none;
+}
+.pagelayer-header h1 {
+	margin-top: 130px;
+}
+
+.pagelayer-header .p-wcq1102 {
+	background-image: url("https://themeltdown.samcarne.com/wp-content/uploads/2021/12/photo-1567206563064-6f60f40a2b57.jpeg");
+}
+
+footer .p-bhx9125 {
+	background-image: url("https://themeltdown.samcarne.com/wp-content/uploads/2021/12/footer-scaled.jpg");
+}
+
+.pagelayer-wp-title-section a img {
+	border-radius: 50%;
+}
+
+.pagelayer-wp-title-heading {
+	display: none; 
+}
+
+.p-9ce3680 .pagelayer-wp-title-img {
+	width: 7% !important;
+	height: auto;
+	position: relative;
+	top: -20px;
+}
+
+.pagelayer-heading-holder h2 {
+	color: rgba(76, 105, 222, 0.152) !important;
+}
+
+.pagelayer-heading-holder h5 {
 	
+}
+
+.pagelayer-heading-holder h6 {
+	color: #4e9eee !important;
+}
+
+.pagelayer-owl-theme .pagelayer-owl-dots .pagelayer-owl-dot span {
+	height: 22px !important;
+	width: 22px !important;
+	background: #290097 !important;
+	margin-top: 25px !important;
+}
+
+.pagelayer-owl-theme .pagelayer-owl-dots .pagelayer-owl-dot.active span {
+	background: #4e9eee !important;
+}
+
+.pagelayer-inner_row, .pagelayer-inner_row img {
+	max-height: 600px !important;
+	width: 100%;
+	object-fit: cover;
+}
+
+footer .pagelayer-heading-holder, .p-u1c1489 .pagelayer-copyright {
+	font-size: 10px;
+}
+
+.p-u1c1489 .pagelayer-copyright *, .p-u1c1489 .pagelayer-copyright {
+	color: #111111 !important;
+}
+
+a {
+	transition: all 400ms !important;
+}
+
+a:hover, a:active {
+	color: #4e9eee !important;
+}
+
+.p-m8s1494 .pagelayer-col-holder div {
+	color: #fff !important;
+}
+
+.p-3gx8701 .pagelayer-wp_menu-ul>li.current-menu-item>a {
+	color: #4e9eee !important; 
+}
+
+.pagelayer-menu-type-vertical li a {
+	margin-top: 0 !important;
+	margin-bottom: 6px !important;
+	padding-bottom: 5px !important;
+	padding-top: 0 !important;
+}
+
+.pagelayer-btn-holder {
+	color: #4e9eee !important;
+	background: #fff !important;
+	border: 1px solid #4e9eee !important;
+}
+
+.pagelayer-btn-holder:hover {
+	color: #fff !important;
+	background: #4e9eee !important;
+}
